@@ -1,7 +1,7 @@
 allow_embedding: false
-package_name: Classic_3
+package_name: sbi_bank
 startup: {type: form, module: Home}
-name: Classic 3
+name: sbi bank
 startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}

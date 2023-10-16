@@ -17,4 +17,37 @@ components:
   name: home
   layout_properties: {grid_position: 'XEDRPL,OKNPMV'}
   event_bindings: {click: home_click}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: 'State Bank of India (SBI) is an Indian multinational public sector bank
+      and financial services statutory body headquartered in Mumbai, Maharashtra.
+      SBI is the 48th largest bank in the world by total assets and ranked 221st in
+      the Fortune Global 500 list of the world''s biggest corporations of 2020, being
+      the only Indian bank on the list.[11] It is a public sector bank and the largest
+      bank in India[12] with a 23% market share by assets and a 25% share of the total
+      loan and deposits market.[13] It is also the tenth largest employer in India
+      with nearly 250,000 employees.[14][15][16] On 14 September 2022, State Bank
+      of India became the third lender (after HDFC Bank and ICICI Bank) and seventh
+      Indian company to cross the ₹ 5-trillion market capitalisation on the Indian
+      stock exchanges for the first time.[17]
+
+
+      The bank descends from the Bank of Calcutta, founded in 1806 via the Imperial
+      Bank of India, making it the oldest commercial bank in the Indian subcontinent.
+      The Bank of Calcutta merged with the other two presidency banks in British India,
+      the Bank of Bombay and the Bank of Madras, to form the Imperial Bank of India,
+      which in turn became the State Bank of India in 1955.[18] Overall the bank has
+      been formed from the merger and acquisition of more than twenty banks over the
+      course of its 200 year history.[19][20] The Government of India took control
+      of the Imperial Bank of India in 1955, with Reserve Bank of India (India''s
+      central bank) taking a 60% stake, renaming it State Bank of India.
+
+
+      On 16th Aug 2022 an attempt to facilitate and support start-ups in the country,
+      the State Bank of India (SBI) announced the launch of its first "state-of-the-art"
+      dedicated branch for start-ups in the country in Bengaluru.[21]', font_size: 13,
+    font: '', spacing_above: medium, icon_align: left, spacing_below: small, italic: false,
+    background: '', bold: false, underline: false, icon: ''}
+  name: label_2
+  layout_properties: {grid_position: 'EUAIEJ,BPZUBI'}
 is_package: true
