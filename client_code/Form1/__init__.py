@@ -16,7 +16,7 @@ class Form1(Form1Template):
     
     pass
 
-    
+    self.about_us.raise_event('click', label_2_show())
     
 
   
