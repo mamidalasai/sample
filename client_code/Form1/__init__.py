@@ -9,14 +9,77 @@ class Form1(Form1Template):
 
     # Any code you write here will run before the form opens.
     self.card_1.visible = False
+    self.card_2.visible = False
+    self.card_3.visible = False
+    self.card_4.visible = False
+    self.card_5.visible = False
+    self.card_6.visible = False
 
-  def label_2_show(self, **event_args):
-    """This method is called when the Label is shown on the screen"""
+  def link_1_click(self, **event_args):
+    """This method is called when the link is clicked"""
     self.card_1.visible = True
-    
+    self.card_2.visible = False
+    self.card_3.visible = False
+    self.card_4.visible = False
+    self.card_5.visible = False
+    self.card_6.visible = False
     pass
 
-    self.about_us.raise_event('click', label_2_show())
+  def link_2_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.card_2.visible = True
+    self.card_1.visible = False
+    self.card_3.visible = False
+    self.card_4.visible = False
+    self.card_5.visible = False
+    self.card_6.visible = False
+    pass
+
+  def link_3_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.card_3.visible = True
+    self.card_2.visible = False
+    self.card_1.visible = False
+    self.card_4.visible = False
+    self.card_5.visible = False
+    self.card_6.visible = False
+    pass
+
+  def link_4_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.card_4.visible = True
+    self.card_2.visible = False
+    self.card_3.visible = False
+    self.card_1.visible = False
+    self.card_5.visible = False
+    self.card_6.visible = False
+    pass
+
+  def link_5_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.card_5.visible = True
+    self.card_2.visible = False
+    self.card_3.visible = False
+    self.card_4.visible = False
+    self.card_1.visible = False
+    self.card_6.visible = False
+    pass
+
+  def link_6_click(self, **event_args):
+    """This method is called when the link is clicked"""
+    self.card_6.visible = True
+    self.card_2.visible = False
+    self.card_3.visible = False
+    self.card_4.visible = False
+    self.card_5.visible = False
+    self.card_1.visible = False
+    pass
+
+
+
+
+
+
     
 
   

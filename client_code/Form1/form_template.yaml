@@ -12,14 +12,6 @@ components:
     icon: ''}
   name: label_1
   layout_properties: {slot: title}
-- type: Label
-  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
-    text: '      About us      ', font_size: null, font: '', spacing_above: small,
-    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
-    underline: false, icon: ''}
-  name: about_us
-  layout_properties: {slot: sidebar}
-  event_bindings: {}
 - type: ColumnPanel
   properties: {role: card, col_widths: '{}'}
   name: card_1
@@ -40,6 +32,13 @@ components:
     name: label_2
     layout_properties: {grid_position: 'TEOKPL,QXIANE'}
     event_bindings: {show: label_2_show}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: back, font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: button_1
+    layout_properties: {grid_position: 'AKRXJR,RBAALN'}
   event_bindings: {}
 - type: Image
   properties: {role: null, vertical_align: center, height: 29, tooltip: '', border: '',
@@ -48,3 +47,119 @@ components:
     spacing_below: small, background: '', horizontal_align: center}
   name: image_1
   layout_properties: {slot: nav-right}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: About us, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
+    spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+    italic: true, background: '', bold: true, underline: false, icon: ''}
+  name: link_1
+  layout_properties: {slot: sidebar}
+  event_bindings: {click: link_1_click}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: create account, font_size: null, wrap_on: mobile, font: '',
+    col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+    italic: true, background: '', bold: true, underline: false, icon: ''}
+  name: link_2
+  layout_properties: {slot: sidebar}
+  event_bindings: {click: link_2_click}
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: large, col_widths: '{}',
+    spacing_below: small, background: ''}
+  name: card_2
+  layout_properties: {grid_position: 'NIEFQC,OHHETT', slot: default}
+  components:
+  - type: Label
+    properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Create Account, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_4
+    layout_properties: {grid_position: 'NTCGVS,PPBDWK'}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: Deposit, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
+    spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+    italic: true, background: '', bold: true, underline: false, icon: ''}
+  name: link_3
+  layout_properties: {slot: sidebar}
+  event_bindings: {click: link_3_click}
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: large, col_widths: '{}',
+    spacing_below: large, background: ''}
+  name: card_3
+  layout_properties: {grid_position: 'NTPXTO,APERZW', slot: default}
+  components:
+  - type: Label
+    properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Deposit, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_5
+    layout_properties: {grid_position: 'ENRVAQ,WMNJNI'}
+- type: ColumnPanel
+  properties: {role: card, col_widths: '{}'}
+  name: card_4
+  layout_properties: {grid_position: 'DRDUCY,LSYXQJ', slot: default}
+  components:
+  - type: Label
+    properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Withdraw, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_6
+    layout_properties: {grid_position: 'TTJMAD,VJFXGK'}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: withdraw, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
+    spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+    italic: true, background: '', bold: true, underline: false, icon: ''}
+  name: link_4
+  layout_properties: {slot: sidebar}
+  event_bindings: {click: link_4_click}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: check balance, font_size: null, wrap_on: mobile, font: '',
+    col_spacing: medium, spacing_above: small, icon_align: left, col_widths: '{}',
+    spacing_below: small, italic: true, background: '', bold: true, underline: false,
+    icon: ''}
+  name: link_5
+  layout_properties: {slot: sidebar}
+  components: []
+  event_bindings: {click: link_5_click}
+- type: Link
+  properties: {role: null, url: '', align: left, tooltip: '', border: '', foreground: '',
+    visible: true, text: Contact us, font_size: null, wrap_on: mobile, font: '', col_spacing: medium,
+    spacing_above: small, icon_align: left, col_widths: '', spacing_below: small,
+    italic: true, background: '', bold: true, underline: false, icon: ''}
+  name: link_6
+  layout_properties: {grid_position: 'XVBEDO,ZQDPWW', slot: sidebar}
+  event_bindings: {click: link_6_click}
+- type: ColumnPanel
+  properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: large, col_widths: '{}',
+    spacing_below: large, background: ''}
+  name: card_5
+  layout_properties: {grid_position: 'VJOCJK,JBREXQ', slot: default}
+  components:
+  - type: Label
+    properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Check Balance, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: large, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: 'SZUFAC,KKVYOQ'}
+- type: ColumnPanel
+  properties: {role: card, col_widths: '{}'}
+  name: card_6
+  layout_properties: {grid_position: 'BTAXPN,OQNIMK', slot: default}
+  components:
+  - type: Label
+    properties: {role: title, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: Contact Us, font_size: 20, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+      underline: false, icon: ''}
+    name: label_8
+    layout_properties: {grid_position: 'TMWEBX,CLYHKV'}
