@@ -1,5 +1,9 @@
 from ._anvil_designer import contact_usTemplate
 from anvil import *
+import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class contact_us(contact_usTemplate):
   def __init__(self, **properties):

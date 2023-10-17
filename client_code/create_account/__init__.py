@@ -1,5 +1,9 @@
 from ._anvil_designer import create_accountTemplate
 from anvil import *
+import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class create_account(create_accountTemplate):
   def __init__(self, **properties):

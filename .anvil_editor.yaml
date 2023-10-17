@@ -11,7 +11,8 @@ unique_ids:
     Home: '169743318442895497805609.62607'
     log_in: '1697453349787391919561224.1668'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1697440816936197393499497.7129'
   assets:
     dashboard.html: YG5RMEKIAVKQQO5EQ2EQ7PLZ2DTDYAEA
     single-column.html: PDJANGE437Q2U3QU3Y5L2FASJWHTRYMD

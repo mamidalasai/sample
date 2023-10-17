@@ -1,5 +1,9 @@
 from ._anvil_designer import check_balanceTemplate
 from anvil import *
+import anvil.server
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 
 class check_balance(check_balanceTemplate):
   def __init__(self, **properties):

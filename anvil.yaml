@@ -1,5 +1,23 @@
 allow_embedding: false
 package_name: sbi_bank
+db_schema:
+  sign_up:
+    client: none
+    server: full
+    columns:
+    - name: name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: number
+      admin_ui: {width: 200, order: 1}
+      type: number
+    - name: email
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: password
+      admin_ui: {width: 200, order: 3}
+      type: string
+    title: sign up
 startup: {type: form, module: Home}
 name: sbi bank
 startup_form: null
