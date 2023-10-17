@@ -23,5 +23,8 @@ class sign_up(sign_upTemplate):
     number = self.number.text
     password = self.password.text
     anvil.server.call('sign_up', name, number, email, password)
+    alert("Sign Up Successfully  " + 
+          "Welcome " + name)
+    open_form('user_interface')
 
 

@@ -17,4 +17,4 @@ import anvil.server
 #
 @anvil.server.callable
 def create_account(name, number, email, pan_card):
-  pass
+  app_tables.create_account.add_row(name=name, number=number, email=email, pan_card=pan_card)
