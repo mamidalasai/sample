@@ -13,6 +13,7 @@ unique_ids:
   modules: {}
   server_modules:
     ServerModule1: '1697440816936197393499497.7129'
+    ServerModule2: '1697526182977522987185577.8168'
   assets:
     dashboard.html: YG5RMEKIAVKQQO5EQ2EQ7PLZ2DTDYAEA
     single-column.html: PDJANGE437Q2U3QU3Y5L2FASJWHTRYMD
